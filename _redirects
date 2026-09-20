@@ -1,0 +1,2 @@
+# Replace YOUR-DOMAIN.example before deployment
+https://YOUR-DOMAIN.example/* https://YOUR-DOMAIN.example/:splat 301!
