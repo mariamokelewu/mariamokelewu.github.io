@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://YOUR-DOMAIN.example/</loc></url><url><loc>https://YOUR-DOMAIN.example/about.html</loc></url><url><loc>https://YOUR-DOMAIN.example/practice.html</loc></url><url><loc>https://YOUR-DOMAIN.example/work.html</loc></url><url><loc>https://YOUR-DOMAIN.example/ideas.html</loc></url><url><loc>https://YOUR-DOMAIN.example/contact.html</loc></url><url><loc>https://YOUR-DOMAIN.example/privacy.html</loc></url><url><loc>https://YOUR-DOMAIN.example/terms.html</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://mariamokelewu.github.io/</loc></url>
+  <url><loc>https://mariamokelewu.github.io/about.html</loc></url>
+  <url><loc>https://mariamokelewu.github.io/practice.html</loc></url>
+  <url><loc>https://mariamokelewu.github.io/work.html</loc></url>
+  <url><loc>https://mariamokelewu.github.io/ideas.html</loc></url>
+  <url><loc>https://mariamokelewu.github.io/article.html</loc></url>
+  <url><loc>https://mariamokelewu.github.io/contact.html</loc></url>
+</urlset>
