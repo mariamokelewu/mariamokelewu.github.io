@@ -192,7 +192,8 @@ textarea{min-height:160px}
   .links{gap:18px}
   .section-grid{gap:45px}
   .editorial-main{display:block}
-  .editorial-desc{margin-top:8px}
+  .editorial-title{display:block;margin-bottom:9px}
+  .editorial-desc{display:block;margin-top:0;max-width:520px}
 }
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
