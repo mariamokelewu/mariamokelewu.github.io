@@ -38,7 +38,7 @@
 <body><a class="skip-link" href="#main-content">Skip to main content</a>
 <nav class="nav">
   <a class="logo" href="index.html">MARIAM OKELEWU</a>
-  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
   <div class="links" id="site-menu">
     <a href="about.html">About</a>
     <a href="practice.html">Practice</a>
@@ -241,7 +241,7 @@
   <div class="footer-inner">
     <div class="footer-top">
       <div class="footer-primary">
-        <div class="footer-kicker">Mariam Okelewu</div>
+        
         <h2 class="footer-title">Risk · Regulation · Business · Public Policy</h2>
         <p class="footer-copy">A multidisciplinary portfolio spanning risk assessment, regulation, business analysis and commercial decision-making, with a focus on economics and public policy.</p>
       </div>
@@ -255,7 +255,7 @@
 </footer>
 
 <div id="cookie-banner" class="cookie" role="region" aria-label="Analytics preferences" aria-live="polite"><p>Essential technologies keep this site working. Optional analytics helps improve it. You can accept or decline analytics.</p><div class="cookie-actions"><button class="decline" type="button" onclick="declineCookies()">Decline analytics</button><button class="accept" type="button" onclick="acceptCookies()">Accept analytics</button></div></div>
-<script>(function(){const b=document.querySelector('.menu-toggle'),m=document.getElementById('site-menu');if(!b||!m)return;b.addEventListener('click',function(){const open=m.classList.toggle('open');b.setAttribute('aria-expanded',String(open));});m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){m.classList.remove('open');b.setAttribute('aria-expanded','false');});});})();</script>
+<script>(function(){const b=document.querySelector('.menu-toggle'),m=document.getElementById('site-menu');if(!b||!m)return;b.addEventListener('click',function(){const open=m.classList.toggle('open');b.setAttribute('aria-expanded',String(open));b.setAttribute('aria-label',open?'Close navigation menu':'Open navigation menu');});m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){m.classList.remove('open');b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Open navigation menu');});});})();</script>
 <script>window.MARIAM_GA_ID='G-XXXXXXXXXX';(function(){const k='mariam_cookie_consent_v1',b=document.getElementById('cookie-banner');function load(){const id=window.MARIAM_GA_ID;if(!id||id==='G-XXXXXXXXXX')return;if(document.getElementById('ga-script'))return;const s=document.createElement('script');s.id='ga-script';s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(id);document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}window.gtag=gtag;gtag('js',new Date());gtag('config',id,{anonymize_ip:true})}const c=localStorage.getItem(k);if(c==='accepted')load();if(!c&&b)b.classList.add('show');window.acceptCookies=function(){localStorage.setItem(k,'accepted');b?.classList.remove('show');load()};window.declineCookies=function(){localStorage.setItem(k,'declined');b?.classList.remove('show')}})();</script>
 </body>
 </html>
