@@ -204,3 +204,8 @@ textarea{min-height:160px}
   .card,.editorial-link{transition:none}
   .card:hover,.editorial-link:hover{padding-left:0;padding-right:0}
 }
+
+/* Quiet location and local-time detail */
+.footer-location{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.08em;color:#b9c7cf;white-space:nowrap}
+.footer-bottom{flex-wrap:wrap}
+@media(max-width:600px){.footer-bottom{align-items:flex-start;gap:14px}.footer-location{width:100%;order:0}.footer-bottom>span:not(.footer-location){order:1}.footer-bottom-links{order:2}}
