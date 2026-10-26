@@ -1,0 +1,25 @@
+RED THREAD WEBSITE — PUBLICATION PACKAGE
+
+This folder contains the website files for deployment.
+
+PAGES
+- Home: index.html
+- Investigation: investigation.html
+- Practice & Perspective: practice.html
+- Selected Work: work.html
+- Ideas in Motion: ideas.html
+- Essays: article.html and risk-protection-and-capacity.html
+- About: about.html
+- Contact: contact.html
+- Privacy and Terms: privacy.html and terms.html
+- Custom not-found page: 404.html
+
+BEFORE GOING LIVE
+1. Upload the contents of this folder to the root of the GitHub Pages repository.
+2. Confirm GitHub Pages is configured to deploy from the intended branch and folder.
+3. Test the site navigation on desktop and phone.
+4. Submit a real test message through the Contact form and confirm it arrives in Basin.
+5. Review Selected Work examples for confidentiality and employer-policy compliance.
+6. Confirm the privacy notice still accurately describes the services in use.
+
+The site has not been published by this package.

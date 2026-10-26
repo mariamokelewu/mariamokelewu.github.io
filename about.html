@@ -1,45 +1,309 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>About — Mariam Okelewu</title><meta name="description" content="About Mariam Okelewu and her multidisciplinary professional direction across law, business, risk, regulation and public policy."><meta property="og:title" content="About — Mariam Okelewu"><meta property="og:description" content="About Mariam Okelewu and her multidisciplinary professional direction."><meta property="og:type" content="website"><meta property="og:url" content="https://mariamokelewu.github.io/about.html"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="About — Mariam Okelewu"><meta name="twitter:description" content="About Mariam Okelewu and her multidisciplinary professional direction across law, business, risk, regulation and public policy."><link rel="canonical" href="https://mariamokelewu.github.io/about.html"><meta name="theme-color" content="#fbfaf7"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=5.3.8"></head><body><a class="skip-link" href="#main-content">Skip to main content</a><nav class="nav"><a class="logo" href="index.html">MARIAM OKELEWU</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open navigation menu"><span></span><span></span><span></span></button><div class="links" id="site-menu"><a href="about.html" aria-current="page">About</a><a href="practice.html">Practice</a><a href="work.html">Selected Work</a><a href="ideas.html">Ideas</a><a href="contact.html">Contact</a></div></nav><header class="page-hero"><div class="kicker">About</div><h1>Law, business, risk and the questions behind them.</h1></header><main id="main-content" class="page-content"><div class="prose">
-  <div class="section-grid">
-    <div><h2>About</h2></div>
-    <div>
-      <p>My career began in law, but I quickly found myself more interested in the businesses sitting behind the legal questions: how they operate, how they make decisions, the risks they take and the environments that allow them to succeed or fail.</p>
-      <p>Since then, I have worked across legal operations, commercial operations, compliance, governance and risk. I currently work at HMRC, where I assess the financial and operational risks of UK businesses and use evidence to understand where intervention may be necessary.</p>
-      <p>I am increasingly interested in how regulation shapes business behaviour, how economic policy affects businesses and individuals, and how governments can create environments in which businesses can both comply and thrive.</p>
-      <p><strong>My background is multidisciplinary. I intend to keep it that way.</strong></p>
-      <p>This website is a collection of my professional experience, research, ideas, and the questions I am exploring as I continue to develop in that direction.</p>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#e9eef1">
+<meta name="description" content="Mariam Okelewu’s journey through business, law, compliance, economics and public policy.">
+<meta name="description" content="An illustrated journey through law, business, compliance, economics and public policy.">
+<title>About — Mariam Okelewu</title>
+<style>
+:root{
+  --paper:#e9eef1; --ink:#17232d; --muted:#5c6973; --red:#922d39; --red2:#b13a46;
+  --line:#c9d2d8; --blush:#dce5e9; --blue:#36596e; --white:#f5f7f8;
+  --serif: Georgia, "Times New Roman", serif; --sans: Arial, Helvetica, sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55}
+a{color:inherit}
+.site-nav{height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(22px,4.5vw,68px);border-bottom:1px solid var(--line);background:rgba(233,238,241,.97);position:relative;z-index:2}
+.brand{font:14px/1.05 var(--serif);letter-spacing:.11em;text-transform:uppercase;text-decoration:none}
+.navlinks{display:flex;gap:clamp(14px,2.3vw,34px);align-items:center;font-size:12px}
+.navlinks a{text-decoration:none;padding:25px 0 22px;border-bottom:2px solid transparent}
+.navlinks a.active{border-color:var(--red)}
+.menu{display:none;background:none;border:0;font:inherit}
+main{max-width:1440px;margin:auto;padding:clamp(42px,6vw,86px) clamp(24px,6.3vw,92px) 60px}
+.eyebrow{color:var(--red);font-size:11px;letter-spacing:.17em;text-transform:uppercase;font-weight:700}
+h1,h2,h3,p{margin-top:0}
+h1{font:clamp(52px,7.2vw,100px)/.98 var(--serif);letter-spacing:-.055em;font-weight:400;margin:15px 0 22px;max-width:900px}
+.intro{font:clamp(18px,2vw,23px)/1.45 var(--serif);max-width:660px;color:#5c6973;margin-bottom:0}
+.intro-rule{width:58px;height:2px;background:var(--red);margin:32px 0 28px}
+.story-layout{display:grid;grid-template-columns:minmax(360px, 1.08fr) minmax(390px, .92fr);gap:clamp(28px,4vw,60px);align-items:center}
+.visual{position:relative;min-height:660px;display:flex;align-items:center;justify-content:center}
+.visual svg{width:120%;max-width:none;height:auto;max-height:850px;overflow:visible;transform:translateX(-3%)}
+.branch{fill:none;stroke:var(--red);stroke-width:5.5;stroke-linecap:round;stroke-dasharray:520;stroke-dashoffset:520;animation:draw 1.8s ease forwards}
+.branch.b2{animation-delay:.22s}.branch.b3{animation-delay:.42s}.branch.b4{animation-delay:.62s}
+@keyframes draw{to{stroke-dashoffset:0}}
+.central-pulse{transform-origin:50% 50%;animation:pulse 4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.82}50%{opacity:1}}
+.story-stages{display:flex;flex-direction:column;gap:25px;padding:12px 0}
+.stage{display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;align-items:start;position:relative;padding:3px 0 8px;opacity:.72;transition:opacity .3s ease, transform .3s ease}
+.stage.active,.stage:hover,.stage:focus-within{opacity:1;transform:translateX(4px)}
+.stage-num{font:40px/.95 var(--serif);color:var(--red);letter-spacing:-.04em}
+.stage-top{display:flex;align-items:center;gap:14px;margin:3px 0 12px}
+.stage-top:before{content:"";height:1px;width:28px;background:var(--red2);flex:none}
+.stage-label{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--red);font-weight:700}
+.stage h2{font:clamp(20px,2vw,25px)/1.16 var(--serif);font-weight:400;letter-spacing:-.02em;margin:0 0 10px}
+.stage p{font:15px/1.55 var(--serif);color:var(--muted);margin:0;max-width:440px}
+.stage a{display:inline-block;color:var(--red);text-decoration:none;font-size:12px;margin-top:10px}
+.stage a:hover{text-decoration:underline}
+.stage-image{width:100%;max-width:116px;float:right;margin:0 0 8px 14px}
+.closing{margin-top:54px;padding-top:42px;border-top:1px solid var(--line);position:relative}
+.closing:before{content:"";position:absolute;top:-5px;left:49%;width:8px;height:8px;border:1px solid var(--red);border-radius:50%;background:var(--paper)}
+.closing-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,70px);align-items:start}
+.closing h2{font:clamp(30px,4vw,48px)/1.1 var(--serif);font-weight:400;letter-spacing:-.035em;margin:14px 0 25px;max-width:570px}
+.closing p{font:16px/1.65 var(--serif);color:var(--muted);margin:0}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:18px;padding:13px 18px;border:1px solid var(--red);color:var(--red);text-decoration:none;font-size:12px;transition:background .2s,color .2s}
+.btn.primary{background:var(--red);color:white}.btn:hover{background:#74232c;color:white}
+.footer{border-top:1px solid var(--line);padding:22px clamp(24px,6.3vw,92px);display:flex;justify-content:space-between;color:var(--muted);font-size:11px;letter-spacing:.04em}
+.note{margin-top:20px;color:#77716b;font-size:11px}
+@media(max-width:900px){
+ .navlinks{gap:13px;font-size:11px}
+ main{padding-top:52px}
+ .story-layout{grid-template-columns:1fr;gap:6px}
+ .visual{min-height:0;max-width:700px;margin:0 auto;width:100%}
+ .visual svg{width:112%;max-height:none;transform:translateX(-2%)}
+ .story-stages{display:grid;grid-template-columns:1fr 1fr;gap:28px 25px;padding-top:4px}
+ .stage{grid-template-columns:48px minmax(0,1fr);gap:12px}
+ .stage-num{font-size:34px}
+ .stage-image{max-width:85px}
+}
+@media(max-width:600px){
+ .site-nav{height:62px}
+ .navlinks{display:none}
+ .menu{display:block}
+ main{padding:42px 22px 44px}
+ h1{font-size:clamp(48px,14vw,72px)}
+ .intro{font-size:19px}
+ .intro-rule{margin:26px 0 14px}
+ .visual{margin:0 -9px;width:calc(100% + 18px)}
+ .story-stages{grid-template-columns:1fr;gap:20px;padding-top:0}
+ .stage{grid-template-columns:48px minmax(0,1fr);padding:6px 0}
+ .stage h2{font-size:23px}
+ .stage p{font-size:16px}
+ .stage-image{max-width:92px}
+ .closing{margin-top:35px;padding-top:32px}
+ .closing-grid{grid-template-columns:1fr;gap:20px}
+ .closing h2{font-size:36px}
+ .footer{padding:20px 22px;gap:14px;flex-wrap:wrap}
+}
+@media(max-width:900px){
+ .site-nav{padding:0 22px}
+ .navlinks{display:none}
+ .menu{display:flex;width:36px;height:36px;padding:6px 2px;flex-direction:column;align-items:flex-end;justify-content:center;gap:5px;cursor:pointer;color:var(--ink)}
+ .menu span{display:block;width:24px;height:2px;background:currentColor}
+ .menu span:nth-child(2){width:18px}
+ .nav-mobile{display:flex;flex-direction:column;padding:8px 22px 16px;border-bottom:1px solid var(--line);background:var(--paper);color:var(--ink)}
+ .nav-mobile[hidden]{display:none}
+ .nav-mobile a{padding:12px 0;border-bottom:1px solid var(--line);text-decoration:none;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+ .nav-mobile a:last-child{border-bottom:0}
+}
+/* Responsive About journey: Revision 9 composition on laptop; continuous thread on smaller screens. */
+.mobile-hub,.mobile-thread-connector{display:none}
+@media(max-width:900px){
+  .story-layout{display:flex;flex-direction:column;align-items:stretch;gap:0}
+  .visual{width:100%;max-width:700px;min-height:0;margin:0 auto}
+  .visual svg{display:block;width:100%;max-width:620px;height:auto;max-height:none;transform:none;overflow:visible}
+  .desktop-branches{display:none}
+  .branch{display:none;animation:none;stroke-dasharray:none;stroke-dashoffset:0}
+  .central-pulse{display:none}
+  .mobile-hub{display:block}
+  .mobile-thread-connector{display:block;height:36px;width:100%;margin:0;padding:0;flex:none}
+  .mobile-thread-connector svg{display:block;width:100%;height:100%;overflow:visible}
+  .mobile-thread-connector path{fill:none;stroke:var(--red);stroke-width:5.5;stroke-linecap:round;vector-effect:non-scaling-stroke}
+  .visual > svg > text:last-of-type{display:none}
+  .story-stages{display:flex;flex-direction:column;gap:20px;padding:0 0 0 26px;position:relative;align-items:stretch}
+  .story-stages:before{content:"";position:absolute;left:7px;top:0;bottom:25px;width:3px;background:var(--red);border-radius:3px;opacity:.95}
+  .stage{grid-template-columns:48px minmax(0,1fr);gap:12px;padding:6px 0 12px;position:relative;opacity:1;transform:none!important;min-width:0}
+  .stage:before{content:"";position:absolute;left:-25px;top:16px;width:11px;height:11px;border-radius:50%;background:var(--red);border:2px solid var(--paper);box-shadow:0 0 0 1px var(--red)}
+  .stage-num{font-size:34px}
+  .stage h2{font-size:clamp(21px,3vw,25px)}
+  .stage p{font-size:16px}
+  .stage-image{max-width:92px}
+}
+@media(max-width:600px){
+  main{padding:42px 22px 44px}
+  .visual{width:100%;max-width:500px;margin:0 auto}
+  .visual svg{width:100%;max-width:500px}
+  .story-stages{gap:18px;padding-left:25px}
+  .stage{grid-template-columns:42px minmax(0,1fr);gap:10px;padding:6px 0 12px}
+  .stage:before{left:-24px;top:16px}
+  .stage h2{font-size:23px}
+  .stage p{font-size:16px}
+  .stage-image{max-width:86px}
+}
+
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+ .branch{stroke-dashoffset:0}
+}
+</style>
+</head>
+<body>
+<header class="site-nav">
+  <a class="brand" href="index.html" aria-label="Mariam Okelewu — home">Mariam<br>Okelewu</a>
+  <nav class="navlinks" aria-label="Main navigation">
+    <a href="index.html">Home</a><a href="investigation.html">Investigation</a><a href="practice.html">Practice &amp; Perspective</a><a href="ideas.html">Ideas in Motion</a><a href="work.html">Selected Work</a><a class="active" href="about.html">About</a><a href="contact.html">Contact</a>
+  </nav>
+  <button class="menu" type="button" aria-expanded="false" aria-controls="nav-mobile" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+</header>
+<nav id="nav-mobile" class="nav-mobile" hidden aria-label="Mobile navigation">
+<a href="index.html">Home</a><a href="investigation.html">Investigation</a><a href="practice.html">Practice &amp; Perspective</a><a href="ideas.html">Ideas in Motion</a><a href="work.html">Selected Work</a><a href="about.html" aria-current="page">About</a><a href="contact.html">Contact</a>
+</nav>
+<main id="top">
+  <div class="eyebrow">About</div>
+  <h1>How I got here.</h1>
+  <p class="intro">My journey has been shaped by a simple curiosity: how businesses work, how rules shape them, and how economic systems create the conditions for people and businesses to thrive.</p>
+  <div class="intro-rule"></div>
+
+  <section class="story-layout" id="about" aria-label="Four stages of my journey">
+    <div class="visual">
+      <!-- Original inline SVG collage: intentionally illustrative, not a photograph of a real business or workplace. -->
+      <svg viewBox="0 0 500 650" role="img" aria-labelledby="visual-title visual-desc">
+        <title id="visual-title">A central illustration branching into four stages</title>
+        <desc id="visual-desc">A layered collage of a shop, city buildings, documents, a globe and notes. On wide screens, burgundy branches extend toward four stages; on smaller screens, a single thread leads into a vertical journey.</desc>
+        <defs>
+          <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dce8ed"/><stop offset="1" stop-color="#c8dbe3"/></linearGradient>
+        </defs>
+        <!-- Floating illustration elements sit directly on the page canvas; no enclosing paper panel. -->
+        <!-- skyline and shop -->
+        <g stroke="#71818a" stroke-width="1.4" fill="none" opacity=".88">
+          <path d="M52 431V315L81 315V290L106 290V350L130 350V261L169 261V430"/>
+          <path d="M58 333H74M58 349H74M58 365H74M58 381H74M58 397H74"/>
+          <path d="M112 369H126M112 385H126M112 401H126M112 417H126"/>
+          <path d="M137 279H160M137 296H160M137 313H160M137 330H160M137 347H160"/>
+          <path d="M43 431H182V454H43Z" fill="#b9cbd3"/>
+          <path d="M35 454H191V475H35Z" fill="#d2e0e6"/>
+          <path d="M47 454L60 438H169L184 454Z" fill="#d5e2e7"/>
+          <path d="M60 459V474M83 459V474M106 459V474M129 459V474M152 459V474M175 459V474"/>
+          <path d="M35 475H191"/>
+          <path d="M31 475L22 492H202L191 475"/>
+          <path d="M70 492V512M153 492V512"/>
+        </g>
+        <g fill="#a52b3a" opacity=".08"><rect x="43" y="438" width="145" height="37"/><path d="M142 262H169V430H142Z"/></g>
+        <!-- globe -->
+        <g transform="translate(144 140)" opacity=".8">
+          <circle cx="0" cy="0" r="69" fill="#d4e3e9" stroke="#8499a4" stroke-width="1.2"/>
+          <ellipse cx="0" cy="0" rx="31" ry="69" fill="none" stroke="#91a6b0" stroke-width=".8"/>
+          <ellipse cx="0" cy="0" rx="57" ry="69" fill="none" stroke="#91a6b0" stroke-width=".8"/>
+          <path d="M-67 -22Q0 -5 67 -22M-68 22Q0 5 68 22M-64 0H64" fill="none" stroke="#91a6b0" stroke-width=".8"/>
+          <path d="M-23 -43L-8 -34L-13 -14L5 -3L-1 18L-20 30L-32 14L-45 8L-41 -14Z" fill="#91a9b4" opacity=".85"/>
+          <path d="M21 -32L39 -27L48 -9L35 1L38 17L22 30L11 13L17 -2L7 -13Z" fill="#9fb5be" opacity=".8"/>
+        </g>
+        <!-- document and annotations -->
+        <g transform="rotate(-7 220 456)">
+          <rect x="185" y="379" width="98" height="148" fill="#20344b" stroke="#91a6b0" stroke-width="1"/>
+          <path d="M199 398H266M199 409H265M199 420H254M199 431H264M199 442H260M199 453H265M199 464H244M199 475H263M199 486H254" stroke="#a9b8bf" stroke-width="1"/>
+          <path d="M200 502Q223 490 244 502T269 500" fill="none" stroke="#a52b3a" stroke-width="1.2"/>
+        </g>
+        <text x="40" y="210" fill="#a52b3a" font-family="Georgia,serif" font-style="italic" font-size="16" transform="rotate(-7 40 210)">Business</text>
+        <text x="40" y="230" fill="#a52b3a" font-family="Georgia,serif" font-style="italic" font-size="16" transform="rotate(-7 40 230)">Rules</text>
+        <text x="40" y="250" fill="#a52b3a" font-family="Georgia,serif" font-style="italic" font-size="16" transform="rotate(-7 40 250)">Incentives</text>
+        <path d="M76 261Q112 246 131 210" fill="none" stroke="#7d7771" stroke-width="1"/>
+        <!-- central node: retained for the wide-screen composition -->
+        <g class="central-pulse"><circle cx="286" cy="405" r="13" fill="#d5e2e7"/><circle cx="286" cy="405" r="5" fill="#a52b3a"/></g>
+        <!-- On narrow screens, the thread exits from the bottom of the illustration instead. -->
+        <g class="mobile-hub"><circle cx="250" cy="638" r="8" fill="#e9eef1" stroke="#922d39" stroke-width="2.5"/><circle cx="250" cy="638" r="3" fill="#a52b3a"/></g>
+        <!-- Desktop-only branches and endpoint nodes. Hide the entire group on narrow screens. -->
+        <g class="desktop-branches">
+          <path class="branch b1" d="M286 405 C365 405 378 111 490 111"/>
+          <path class="branch b2" d="M286 405 C365 405 390 253 490 253"/>
+          <path class="branch b3" d="M286 405 C365 405 390 395 490 395"/>
+          <path class="branch b4" d="M286 405 C365 405 378 537 490 537"/>
+          <g fill="#a52b3a"><circle cx="490" cy="111" r="5"/><circle cx="490" cy="253" r="5"/><circle cx="490" cy="395" r="5"/><circle cx="490" cy="537" r="5"/></g>
+        </g>
+        <text x="25" y="610" fill="#71818a" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">ONE QUESTION LEADS TO ANOTHER</text>
+      </svg>
     </div>
-  </div>
-</div></main><footer>
-  <div class="footer-inner">
-    <div class="footer-top">
-      <div class="footer-primary">
+
+    <div class="mobile-thread-connector" aria-hidden="true">
+      <svg viewBox="0 0 100 36" preserveAspectRatio="none">
+        <path d="M50 0 C50 18 7 18 7 36" />
+      </svg>
+    </div>
+
+    <div class="story-stages">
+      <article class="stage active" id="stage-01">
+        <div class="stage-num">01</div>
+        <div>
+          <div class="stage-top"><span class="stage-label">Where it began</span></div>
+          <h2>Growing up around business.</h2>
+          <p>Both of my parents are successful entrepreneurs. I was invested in how businesses worked — how they made a profit, what made one successful, and how wealth was created.</p>
+          <a href="#stage-02" aria-label="Continue to wider lens">Follow the thread ↗</a>
+        </div>
+      </article>
+      <article class="stage" id="stage-02">
+        <div class="stage-num">02</div>
+        <div>
+          <div class="stage-top"><span class="stage-label">Wider lens</span></div>
+          <h2>Looking behind the rules.</h2>
+          <p>I initially approached these questions through law, but I was more invested in the commercial decisions and incentives sitting behind them.</p>
+          <a href="#stage-03" aria-label="Continue to evidence in practice">Follow the thread ↗</a>
+        </div>
+      </article>
+      <article class="stage" id="stage-03">
+        <div class="stage-num">03</div>
+        <div>
+          <div class="stage-top"><span class="stage-label">Evidence in practice</span></div>
+          <h2>Questions meet real businesses.</h2>
+          <p>My legal and compliance experience gave me different ways of observing how businesses operate, respond to regulation, and manage risk in practice.</p>
+          <a href="#stage-04" aria-label="Continue to what I am moving toward">Follow the thread ↗</a>
+        </div>
+      </article>
+      <article class="stage" id="stage-04">
+        <div class="stage-num">04</div>
+        <div>
+          <div class="stage-top"><span class="stage-label">What I am moving toward</span></div>
+          <h2>Economics and public policy.</h2>
+          <p>I am interested in how economies generate wealth, what shapes who gets the opportunity to create it, and how policy choices influence business growth, resilience, and long-term development.</p>
+          <a href="#connecting" aria-label="Continue to connecting the threads">Follow the thread ↗</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="closing" id="connecting">
+    <div class="eyebrow">Connecting the threads</div>
+    <div class="closing-grid">
+      <div>
+        <h2>I see law, business, compliance, economics and public policy as connected disciplines.</h2>
+        <div class="actions">
+          <a class="btn primary" href="practice.html">Explore my work <span aria-hidden="true">→</span></a>
+          <a class="btn" href="ideas.html">Read my writing <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div>
+        <p>Each gives a different perspective on the same questions: how rules, incentives, institutions and human behavior interact to shape economic outcomes. My interest is in examining those connections, especially the conditions that allow businesses and people to thrive.</p>
         
-        <h2 class="footer-title">Risk · Regulation · Business · Public Policy</h2>
-      </div>
-      <div class="footer-nav">
-        <div>
-          <span class="footer-label">Explore</span>
-          <div class="footer-links">
-            <a href="about.html">About</a>
-            <a href="practice.html">Professional Practice</a>
-            <a href="work.html">Selected Work</a>
-            <a href="ideas.html">Ideas</a>
-          </div>
-        </div>
-        <div>
-          <span class="footer-label">Connect</span>
-          <div class="footer-links">
-            <a href="contact.html">Contact</a>
-          </div>
-        </div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span class="footer-location">London, UK</span><span>© 2026 Mariam Okelewu</span>
-      <div class="footer-bottom-links">
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-      </div>
-    </div>
-  </div>
-</footer><div id="cookie-banner" class="cookie" role="region" aria-label="Analytics preferences" aria-live="polite"><p>Essential technologies keep this site working. Optional analytics helps improve it. You can accept or decline analytics.</p><div class="cookie-actions"><button class="decline" type="button" onclick="declineCookies()">Decline analytics</button><button class="accept" type="button" onclick="acceptCookies()">Accept analytics</button></div></div><script>(function(){const b=document.querySelector('.menu-toggle'),m=document.getElementById('site-menu');if(!b||!m)return;b.addEventListener('click',function(){const open=m.classList.toggle('open');b.setAttribute('aria-expanded',String(open));b.setAttribute('aria-label',open?'Close navigation menu':'Open navigation menu');});m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){m.classList.remove('open');b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Open navigation menu');});});})();</script><script>window.MARIAM_GA_ID='G-XXXXXXXXXX';(function(){const k='mariam_cookie_consent_v1',b=document.getElementById('cookie-banner');function load(){const id=window.MARIAM_GA_ID;if(!id||id==='G-XXXXXXXXXX')return;if(document.getElementById('ga-script'))return;const s=document.createElement('script');s.id='ga-script';s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(id);document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}window.gtag=gtag;gtag('js',new Date());gtag('config',id,{anonymize_ip:true})}const c=localStorage.getItem(k);if(c==='accepted')load();if(!c&&b)b.classList.add('show');window.acceptCookies=function(){localStorage.setItem(k,'accepted');b?.classList.remove('show');load()};window.declineCookies=function(){localStorage.setItem(k,'declined');b?.classList.remove('show')}})();</script></body></html>
+  </section>
+</main>
+<footer class="footer"><span>© Mariam Okelewu</span><span>London, UK</span><a href="#top">Back to top ↑</a></footer>
+<script>
+const stages = [...document.querySelectorAll('.stage')];
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        stages.forEach(s => s.classList.toggle('active', s === entry.target));
+      }
+    });
+  }, {rootMargin: '-25% 0px -45% 0px', threshold: 0});
+  stages.forEach(stage => observer.observe(stage));
+}
+// Ensure mobile nav can open despite its default display styling.
+const menuButton = document.querySelector('.menu');
+const mobileNav = document.getElementById('nav-mobile');
+menuButton.addEventListener('click', () => {
+  const willOpen = mobileNav.hidden;
+  mobileNav.hidden = !willOpen;
+  menuButton.setAttribute('aria-expanded', String(willOpen));
+  menuButton.setAttribute('aria-label', willOpen ? 'Close navigation menu' : 'Open navigation menu');
+});
+</script>
+</body>
+</html>
